@@ -13,6 +13,7 @@ function AppRoutes() {
                     <Route path='/animais' Component={Animais} />
                     <Route path='/fotos' Component={Fotos} />
                     <Route path='/cadastro' Component={Cadastro} />
+                    <Route path='/depoimentos' Component={Depoimentos}/>
                 </Routes>
             </Roteador>
         </>
